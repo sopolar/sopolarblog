@@ -471,7 +471,7 @@ footer:
       <span id="times">载入时分秒...</span>
       <script src="/js/duration.js"></script>
     </div>
-     <p>每日一句：<a id="rainbow" href="https://hitokoto.cn" target="_blank">🌈 获取中...</a></p>
+     <p>一言：<a id="rainbow" href="https://hitokoto.cn" target="_blank">🌈 获取中...</a></p>
   '
   # 展示网站的 PV、UV 统计数
   # Display website PV and UV statistics
