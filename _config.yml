@@ -3,8 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
+title: "sopolar的个人博客"
 subtitle: "sopolar's blog"
-description: 'sopolar的博客'
+description: 'sopolar的个人博客'
 keywords:
 author: sopolar
 language: zh-CN

@@ -1,33 +1,14 @@
-/* 1. 引入本地霞鹜文楷（中文） */
-@font-face {
-  font-family: 'LXGW WenKai';
-  src: url('/fonts/LXGWWenKai-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-/* 2. 引入本地 Fira Code（英文/代码） */
-@font-face {
-  font-family: 'Fira Code';
-  src: url('/fonts/FiraCode-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-/* 3. 正文配置：中文找霞鹜文楷，英文/数字找 Fira Code */
+/* 全站字体配置：英文/代码用 Cascadia，中文用微软雅黑，表情用 Segoe UI Emoji 兜底 */
 body {
-  font-family: 'Fira Code', 'LXGW WenKai', sans-serif !important;
+  font-family: 'Cascadia Mono', 'Microsoft YaHei', 'Segoe UI Emoji', 'Apple Color Emoji', 'Noto Color Emoji', sans-serif !important;
 }
 
-/* 4. 代码块配置：强制 Fira Code，开启连字 */
+/* 代码块专属：强制 Cascadia Mono */
 code, pre {
-  font-family: 'Fira Code', 'Consolas', monospace !important;
-  font-variant-ligatures: contextual !important;
+  font-family: 'Cascadia Mono', 'Consolas', monospace !important;
 }
 
-/* 强制首页副标题变大 */
+/* 首页副标题放大 */
 #subtitle {
-  font-size: 2.5rem !important;  /* 数字越大字越大，你可以改成 2.5rem 或者 4rem */
+  font-size: 2.0rem !important;
 }
